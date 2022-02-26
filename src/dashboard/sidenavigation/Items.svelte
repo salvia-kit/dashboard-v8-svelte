@@ -24,7 +24,7 @@
 					{#each section.content as item, i (item.title)}
 						<div class="pl-5">
 							<a href={item.link} class={style.link}>
-								<span class={item.link === $page.path ? style.active : style.inactive}>
+								<span class={item.link === $page.url.pathname ? style.active : style.inactive}>
 									{item.title}
 								</span>
 							</a>
