@@ -16,7 +16,7 @@
 					type="button"
 					aria-expanded="false"
 					aria-label="Toggle sidenav"
-					onClick={toggle}
+					on:click={toggle}
 					class="text-4xl text-gray-700 focus:outline-none lg:hidden"
 				>
 					&#8801;
@@ -25,7 +25,7 @@
 			<div
 				class="flex items-center justify-end ml-5 mr-0 p-1 relative text-gray-700 w-full sm:mr-0 sm:right-auto"
 			>
-				<a href="#" class="block pr-5">
+				<a href="/" class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6"
@@ -41,7 +41,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="#" class="block pr-5">
+				<a href="/" class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6"
@@ -57,7 +57,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="#" class="block pr-5 relative">
+				<a href="/" class="block pr-5 relative">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6"
@@ -73,7 +73,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="#" class="block relative">
+				<a href="/" class="block relative">
 					<img
 						alt="Stone Cold Steve Austin"
 						src="/images/1.jpg"
